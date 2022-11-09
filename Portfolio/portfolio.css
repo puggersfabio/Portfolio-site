@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(fotos/deze.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* de nav bar*/
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(29, 28, 28);
+    opacity: .8;
+}    
+nav p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+   opacity: .8;
+}
+
+nav ul li a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 18px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute; 
+    background-color: rgba(29, 28, 28);
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li a{
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a{
+    padding: 14px 16px;
+}
+
+nav ul li ul li a:hover{
+    background-color: navy;
+}
+
+#website-1
+{
+   position: relative;
+   left: 1160px; 
+   width: 300px; 
+}
+.projecttekst
+{
+    position: relative;
+    left: 322px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 58%;
+    margin: auto;
+    background-color: rgba(29, 28, 28, 0.884);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21.5px;
+}
+/* dat de site responsive maakt*/
+@media only screen and (max-width: 400px){
+    body{
+        background-image: url(fotos/cloud.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav{
+        width: 200%;
+        height: 60px;
+        background-color: rgba(29, 28, 28);
+        opacity: .8;
+    }    
+    nav p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 18px;
+        line-height: 55px;
+        float: left;
+        padding: 0px 20px;
+    }
+    nav ul{
+        float: left;
+    }
+    nav ul li{
+        float: left;
+        list-style: none;
+        position: relative;
+        opacity: 1;
+    }
+    
+    nav ul li a{
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 18px;
+        padding: 24px 14px;
+        text-decoration: none;
+    }
+    
+    nav ul li ul{
+        display: none;
+        position: absolute; 
+        background-color: rgba(29, 28, 28);
+        padding: 10px;
+        border-radius: 0px 0px 4px 4px;
+    }
+    
+    nav ul li:hover ul{
+        display: block;
+    }
+    
+    nav ul li ul li a{
+        width: 180px;
+        border-radius: 4px;
+    }
+    
+    nav ul li ul li a{
+        padding: 14px 16px;
+    }
+    
+    nav ul li ul li a:hover{
+        background-color: navy;
+    }
+}
